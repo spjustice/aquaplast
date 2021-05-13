@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 	<header class="header">
@@ -16,10 +16,10 @@
 					</div>
 					<div class="socials-links">
 						<ul class="socials-links__list">
-							<li class="socials-links__item"><a href="#" class="socials-links__link"><img src="image/facebook.png" alt="#"></a></li>
-							<li class="socials-links__item"><a href="#" class="socials-links__link"><img src="image/inst.png" alt="#"></a></li>
-							<li class="socials-links__item"><a href="#" class="socials-links__link"><img src="image/wapp.png" alt="#"></a></li>
-							<li class="socials-links__item"><a href="#" class="socials-links__link"><img src="image/vk.png" alt="#"></a></li>
+							<li class="socials-links__item"><a href="#" class="socials-links__link"><img src="images/facebook.png" alt="#"></a></li>
+							<li class="socials-links__item"><a href="#" class="socials-links__link"><img src="images/inst.png" alt="#"></a></li>
+							<li class="socials-links__item"><a href="#" class="socials-links__link"><img src="images/wapp.png" alt="#"></a></li>
+							<li class="socials-links__item"><a href="#" class="socials-links__link"><img src="images/vk.png" alt="#"></a></li>
 						</ul>
 					</div>
 				</div>
@@ -35,7 +35,7 @@
 						<li class="menu__item"><a href="" class="menu__link">Новости</a></li>
 						<li class="menu__item"><a href="" class="menu__link">Портфолио</a></li>
 					</ul>
-					<div class="header__logo-box"><img class="logo" src="image/logo.png" alt=""></div>
+					<div class="header__logo-box"><img class="logo" src="images/logo.png" alt=""></div>
 				</div>
 			</div>
 		</div>
@@ -44,12 +44,13 @@
 		<div class="wrapper">
 			<div class="page-discription__content">
 				<div class="page-discription__main">
+
 					<div class="page-discription__main-block">
 						<div class="page-discription__main-title">
 							О компании
 						</div>
 						<p class="page-discription__main-text">
-							Компания Аква Пласт связана с проектированием и изготовлением обрудования, предназначенного для водоподготовки, водоочистки и водоотведения.
+							Компания Аква Пласт<br> связана с проектированием<br> и изготовлением обрудования, предназначенного для водоподготовки, водоочистки<br> и водоотведения.
 						</p>
 					</div>
 				</div>
@@ -59,12 +60,18 @@
 					</p>
 				</div>
 				<div class="page-discription__gallery">
-					<img class="page-discription__images" src="/image/page1/image1.png" alt="">
-					<img class="page-discription__images" src="/image/page1/image2.png" alt="">
+					<div class="page-discription__image">
+						<img src="/images/page1/image1.png" alt="">
+					</div>
+					<div class="page-discription__image">
+						<img src="/images/page1/image2.png" alt="">
+					</div>
 				</div>
 				<div class="page-discription__about">
 					<div class="page-discription__about_col-right">
-						<img class="page-discription__about-img" src="/image/page1/col1.png" alt="">
+						<div class="page-discription__about-img">
+							<img src="/images/page1/col1.png" alt="">
+						</div>
 						<div class="page-discription__about-box">
 							<p class="page-discription__about-title">Наши специалисты</p>
 							<p class="page-discription__about-text">
@@ -79,10 +86,14 @@
 								применять и внедрять эффективные технологии при проектировании очистных сооружений, позволяющий нашим клиентам получать положительный результат от внедрения инновационных методик по очистке сточных вод.
 							</p>
 						</div>
-						<img class="page-discription__about-img" src="/image/page1/col2.png" alt="">
+						<div class="page-discription__about-img">
+							<img src="/images/page1/col2.png" alt="">
+						</div>
 					</div>
 					<div class="page-discription__about_col-right">
-						<img class="page-discription__about-img" src="/image/page1/col3.png" alt="">
+						<div class="page-discription__about-img">
+							<img src="/images/page1/col3.png" alt="">
+						</div>
 						<div class="page-discription__about-box">
 							<p class="page-discription__about-title">Наши клиенты</p>
 							<p class="page-discription__about-text text-right">
@@ -100,7 +111,9 @@
 				<div class="page-catalog__title"><p>Каталог товаров</p></div>
 				<div class="page-catalog__main">
 					<div class="product1">
-						<img class="product1__image" src="/image/page2/block-img1.png" alt="">
+						<div class="product1__image">
+							<img src="/images/page2/block-img1.png" alt="">
+						</div>
 						<p class="product1__title">
 							СТАНЦИЯ ОЧИСТКИ <br> СТОЧНЫХ ВОД ПРЕМИУМ <br> КЛАССА - CЕРИЯ AT
 						</p>
@@ -117,7 +130,9 @@
 						</p>
 					</div>
 					<div class="product3">
-						<img class="product3__image" src="/image/page2/block-img2.png" alt="">
+						<div class="product3__image">
+							<img src="/images/page2/block-img2.png" alt="">
+						</div>
 						<p class="product3__title">
 							УСТАНОВКИ ОЧИСТКИ <br> СТОЧНЫХ ВОД ОВАЛЬНЫЕ
 						</p>
@@ -137,19 +152,303 @@
 			</div>
 		</div>
 	</section>
-	<section class="page-servises">
+	<section class="page-serviсes">
 		<div class="wrapper">
-			<div class="page-servises__content">
-				<div class="page-servises__title">
-					<img src="/image/page3/title.png" alt="">
+			<div class="page-serviсes__content">
+				<div class="page-serviсes__title-box">
+					<div class="page-serviсes__title-img">
+						<img src="/images/page3/title.png" alt="">
+					</div>
 					<p>Каталог услуг</p>
+				</div>
+				<div class="serviсes__container">
+					<div class="service-small">
+						<div class="service-small__img">
+							<img src="/images/page3/service-img.png" alt="">
+						</div>
+						<div class="service-small__text">
+							<p class="service-small__title">
+								Заголовок
+							</p>
+							<p class="service-small__descr">
+								здесь текст в несколько строк с описанием  услуг
+							</p>
+						</div>
+					</div>
+					<div class="service-small">
+						<div class="service-small__img">
+							<img src="/images/page3/service-img.png" alt="">
+						</div>
+						<div class="service-small__text">
+							<p class="service-small__title">
+								Заголовок
+							</p>
+							<p class="service-small__descr">
+								здесь текст в несколько строк с описанием  услуг
+							</p>
+						</div>
+					</div>
+					<div class="service-large">
+						<div class="service-large__text">
+							<p class="service-large__title">
+								Заголовок
+							</p>
+							<p class="service-large__descr">
+								здесь текст <br> в несколько <br> строк с описанием  услуг
+							</p>
+						</div>
+						<div class="service-large__img">
+							<img src="/images/page3/service-img2.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="block-exp">
+					<p class="block-exp__main-title">
+						Наш опыт:
+					</p>
+					<div class="block-exp__box">
+						<div class="block-exp__text">
+							<div class="block-exp__title">
+								Биологическая очистка
+							</div>
+							<div class="block-exp__descr">
+								Проектирование и изготовление оборудования для очистки хозяцстенно бытовых сточных вод пансионатов, домов отдыха, коттеджных городков, предприятий.
+							</div>
+						</div>
+						<div class="block-exp__img">
+							<img src="/images/page3/exp-img1.png" alt="">
+						</div>
+					</div>
+					<div class="block-exp__box">
+						<div class="block-exp__text">
+							<div class="block-exp__title">
+								Физико-химическая очистка
+							</div>
+							<div class="block-exp__descr">
+								Проектирование и изготовление оборудования <br> для очистки сточных вод промышленных предприятий любого назначения.
+							</div>
+						</div>
+						<div class="block-exp__img">
+							<img src="/images/page3/exp-img2.png" alt="">
+						</div>
+					</div>
+					<div class="block-exp__box">
+						<div class="block-exp__text">
+							<div class="block-exp__title">
+								Автоматизация
+							</div>
+							<div class="block-exp__descr">
+								Собственное изготовление и производство автоматики любого уровня сложности, для контроля всех стадий очистки сточных вод, как локально так и удаленно.
+							</div>
+						</div>
+						<div class="block-exp__img">
+							<img src="/images/page3/exp-img3.png" alt="">
+						</div>
+					</div>
+					<div class="block-exp__box">
+						<div class="block-exp__text">
+							<div class="block-exp__title">
+								Экология
+							</div>
+							<div class="block-exp__descr">
+								Все установки обеспечивают очистку сточных вод до <br> показателей не превышающих величин, <br> установленных СанПин 2.1.5.980-00
+							</div>
+						</div>
+						<div class="block-exp__img">
+							<img src="/images/page3/exp-img4.png" alt="">
+						</div>
+					</div>
+					<div class="block-exp__box">
+						<div class="block-exp__text">
+							<div class="block-exp__title">
+								Постгарантийное обслуживание
+							</div>
+							<div class="block-exp__descr">
+								Бесплатное консультирование на протяжении всего срока эксплуатации оборудования, постгарантийное обслуживание.
+							</div>
+						</div>
+						<div class="block-exp__img">
+							<img src="/images/page3/exp-img5.png" alt="">
+						</div>
+					</div>
+					<div class="block-exp__box">
+						<div class="block-exp__text">
+							<div class="block-exp__title">
+								Паспортная документация
+							</div>
+							<div class="block-exp__descr">
+								Каждый узел имеет свой собственный,разработанный <br> паспорт изделия, с указанием технических зарактеристик, и инструкции по эксплуатации.
+							</div>
+						</div>
+						<div class="block-exp__img">
+							<img src="/images/page3/exp-img6.png" alt="">
+						</div>
+					</div>
+					<div class="block-exp__box">
+						<div class="block-exp__text">
+							<div class="block-exp__title">
+								Клиентоориентированность
+							</div>
+							<div class="block-exp__descr">
+								Индивидуальный подход к проектированию очистных сооружений, исходя из поставленного технического задания и согласно пожеланиям заказчика.
+
+							</div>
+						</div>
+						<div class="block-exp__img">
+							<img src="/images/page3/exp-img7.png" alt="">
+						</div>
+					</div>
+					<div class="block-exp__box">
+						<div class="block-exp__text">
+							<div class="block-exp__title">
+								Мобильный контроль
+							</div>
+							<div class="block-exp__descr">
+								Возможность удаленного контроля работы оборудования, <br> через  мобильное приложение..
+							</div>
+						</div>
+						<div class="block-exp__img">
+							<img src="/images/page3/exp-img8.png" alt="">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-
-
-
+	<section class="page-news">
+		<div class="wrapper">
+			<div class="page-news__content">
+				<p class="page-news__main-title">	
+					Новости
+				</p>
+				<div class="page-news__container">
+					<div class="page-news__icon-news1">
+						<img src="/images/page4/icon-news.png" alt="">
+					</div>
+					<div class="news-1__box">
+						<p class="news-1__date">06.05.21</p>
+						<div class="news-1__img">
+							<img src="/images/page4/news-1.png" alt="">
+						</div>
+						<p class="news-1__title">Заголовок</p>
+						<p class="news-1__descr">
+							здесь текст в несколько <br> строк и инфой
+						</p>
+					</div>
+					<div class="news-2__box">
+						<div class="news-2__img">
+							<img src="/images/page4/news-2.png" alt="">
+						</div>
+						<div class="news-2__box-text">
+							<p class="news-2__title">Заголовок</p>
+							<p class="news-2__descr">
+								здесь текст в несколько <br> строк и инфой
+							</p>
+						</div>
+						<p class="news-2__text_bottom">
+							здесь текст может быть
+						</p>
+					</div>
+					<p class="page-news__info">
+						Здесь текст с полезной информацией. О чем-то новом
+					</p>
+					<div class="page-news__images">
+						<div class="page-news__img">
+							<img src="/images/page4/img.png" alt="">
+						</div>
+					</div>
+					<div class="page-news__icon-news2">
+						<img src="/images/page4/icon news2.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="page-portfolio">
+		<div class="wrapper">
+			<p class="page-portfolio__title">Портфолио</p>
+			<div class="page-portfolio__content">
+				<div class="review1">
+					<div class="review1__image-top">
+						<img src="/images/page5/review1-img1.png" alt="">
+					</div>
+					<div class="review1__image-bottom">
+						<img src="/images/page5/review1-img2.png" alt="">
+					</div>
+					<p class="review1__text_small">
+						Здесь текст в несколько слов об отзыве
+					</p>
+					<p class="review1__text_large">
+						здесь много текста
+					</p>
+				</div>
+				<div class="review2">
+					<div class="review2__block-left">
+						<img src="/images/page5/review2-img1.png" alt="" class="review2__image-left">
+					</div>
+					<div class="review2__block-right">
+						<p class="review2__text">Здесь текст <br> в несколько <br> слов об <br> отзыве</p>
+						<p class="review2__text">Здесь текст <br> в несколько <br> слов об <br> отзыве</p>
+						<img src="/images/page5/review2-img2.png" alt="" class="review2__image-right">
+					</div>
+				</div>
+				<div class="page-portfolio__divide-line"></div>
+				<div class="review3">
+					<div class="review3__image">
+						<img src="/images/page5/review3-img1.png" alt="">
+					</div>
+					<p class="review3__text">
+						Здесь текст в несколько <br> слов об отзыве
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="page-promotions">
+		<div class="wrapper">
+			<p class="page-promotions__title">
+				Акции,спецпредложения
+			</p>
+			<div class="page-promotions__content">
+				<div class="page-promotions__icon-megaphone">
+					<img src="/images/page6/icon-megaphone.png" alt="">
+				</div>
+				<div class="promotion1">
+					<div class="promotion1__text-box">
+						<p class="promotion1__title">Заголовок</p>
+						<p class="promotion1__text">
+							Здесь текст <br> с полезной <br> информацией
+						</p>
+					</div>
+					<div class="promotion1__image">
+						<img src="/images/page6/promotion1-img1.png" alt="">
+					</div>
+				</div>
+				<div class="promotion2">
+					<div class="promotion2__image">
+						<img src="/images/page6/promotion2-img1.png" alt="" class="promotion2__image">
+					</div>
+					<div class="promotion2__text-box">
+						<p class="promotion2__title">Спецпредложение</p>
+						<p class="promotion2__text">
+							здесь текст <br> с информацией
+						</p>
+					</div>
+				</div>
+				<div class="promotion3">
+					<div class="promotion3__text-box">
+						<p class="promotion3__title">Заголовок</p>
+						<p class="promotion3__text">
+							здесь текст <br> в несколько <br> строк
+						</p>
+						<div class="promotion3__image">
+							<img src="/images/page6/promotion3-img1.png" alt="" class="promotion3__image">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 
@@ -171,13 +470,14 @@
 		</div>
 		<div class="footer__content">
 			<div class="wrapper">
-				<div class="footer__desc">
+				<div class="footer__descr">
 					Свяжитесь с нами или оставьте свои контактные данные в форме ниже. Мы свяжемся с Вами и с удовольствием прокосультируем.
 				</div>
 				<div class="footer__container">
 					<div class="contacts">
-						<p class="contacts__address">ОсОО «Аква Пласт» Кыргызская Республика, г. Бишкек, пр-т Чуй, 2</p>
-						<p>Конт.тел: <img class="contacts__phone-img" src="image/phone.png" alt=""></p>
+						<p class="contacts__address">ОсОО «Аква Пласт» Кыргызская Республика, <br> г. Бишкек,<br> пр-т Чуй, 2</p>
+						<img class="contacts__phone-img" src="images/phone.png" alt="">
+						<p>Конт.тел:</p>
 						<p><a class="contacts__number" href="#">+996 (779) 33-56-99</a></p>
 						<p><a class="contacts__number" href="#">+996 (779) 33-56-99</a></p>
 						<p><a class="contacts__e-mail" href="#">aquaplast.bishkek@yandex.ru</a></p>
@@ -187,6 +487,10 @@
 						<input type="text" placeholder="Имя" class="connection-form__name">
 						<textarea name="comment" placeholder="Комментарии" class="connection-form__comment"></textarea>
 					</div>
+				</div>
+				<div class="footer__gallery">
+					<img src="/images/footer/gallery-img1.png" alt="" class="footer__image">
+					<img src="/images/footer/gallery-img2.png" alt="" class="footer__image">
 				</div>
 			</div>
 		</div>
